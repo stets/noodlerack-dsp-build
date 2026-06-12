@@ -1,0 +1,35 @@
+NOODLERACK third-party notices
+
+Eurorack DSP (Émilie Gillet)
+----------------------------
+
+NOODLERACK includes WebAssembly builds of DSP code from Émilie Gillet's
+eurorack repository:
+
+- Plaits, used by RAMEN
+- Marbles, used by BOBA
+- Rings, used by UDON
+- Tides 2018, used by SLURP
+- Clouds, used by STEAM
+
+The upstream DSP code is copyright Emilie Gillet and is licensed under the MIT
+License. The MIT license text for this code is included in LICENSE.
+
+Upstream source: https://github.com/pichenettes/eurorack
+
+stmlib
+------
+
+The WebAssembly engines are built with support code from stmlib.
+
+Except where noted in the upstream repository, stmlib code is copyright Emilie
+Gillet and is licensed under the MIT License.
+
+Upstream source: https://github.com/pichenettes/stmlib
+
+GPL note
+--------
+
+The upstream Grids firmware is GPL-licensed. NOODLERACK's BENTO module does
+not include Grids firmware code or Grids pattern data; it is an original
+implementation with original pattern data.
