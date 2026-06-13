@@ -31,6 +31,7 @@ module names in the app:
 | UDON | Rings | `wrapper_rings.cc` → `rings.wasm` |
 | SLURP | Tides (2018) | `wrapper_tides.cc` → `tides.wasm` |
 | STEAM | Clouds | `wrapper_clouds.cc` → `clouds.wasm` |
+| TWIRL | Warps | `wrapper_warps.cc` → `warps.wasm` |
 
 Each wrapper is a thin C shim that instantiates the upstream voice/engine,
 exposes its parameter and modulation matrix as flat exported functions, and
@@ -55,6 +56,7 @@ bash build_clouds.sh
 bash build_marbles.sh
 bash build_rings.sh
 bash build_tides.sh
+bash build_warps.sh
 ```
 
 Each script leaves its `.wasm` in its `/tmp/<engine>-build` directory.
@@ -68,6 +70,7 @@ node test_marbles.js
 node test_rings.js
 node test_tides.js
 node test_clouds.js
+node test_warps.js
 ```
 
 ## Credits
