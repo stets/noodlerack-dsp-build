@@ -33,3 +33,6 @@ GPL note
 The upstream Grids firmware is GPL-licensed. NOODLERACK's BENTO module does
 not include Grids firmware code or Grids pattern data; it is an original
 implementation with original pattern data.
+
+Beads DSP used by PEARL: Copyright Emilie Gillet, MIT.
+Official source: https://github.com/pichenettes/eurorack
